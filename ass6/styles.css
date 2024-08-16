@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:antiquewhite;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    /* grid-template-rows: 1fr 1fr; */
+    gap:25px;
+    align-items: start;
+    margin-top:-40px;
+    padding:20px;
+    box-sizing:border-box;
+}
+.box{
+    padding: 15px;
+    border-top:20px;
+    background-color:white;
+    border-radius:10px;
+    box-shadow: rgba(0,0,0,0.1);
+    border-left: 30px;
+    border-right: 20px;
+    overflow:hidden;
+    /* box-sizing: border-box; */
+}
+img{
+width: 100%;
+height:auto;
+}
+a:link{
+    color:red;
+}
+a:hover{
+    color:blue;
+}
