@@ -10,12 +10,12 @@
         <!-- 1. <img>
          2. <br>
          3. <link>
-         4. <meta> --!>
+         4. <meta> -->
          
 4. What is Different Element and Attributes ?
      Elements define the structure and content of the document and Attributes provide additional details and modify the behavior or appearance of elements.
      Example:
-         <img src="abc.jpg" alt="text">
+         <!-- <img src="abc.jpg" alt="text"> -->
          here <img> is an HTML element and src and alt are attributes of <img> tag which tells the behaviour of <img> tag.
    
 5. What is Html Entries and Why is it need in HTML ?
@@ -30,7 +30,7 @@
 7. what is the best way to add images in Website ?
      The <img> tag is the standard HTML method for embedding images. It’s straightforward and supports various attributes to control how the image is displayed.
      Example:
-        <img src="abc.jpg" alt="about the image" width="600" height="400">
+        <!-- <img src="abc.jpg" alt="about the image" width="600" height="400"> -->
         src: Specifies the path to the image file.
         alt: Provides alternative text for the image, which is important for accessibility and SEO.
         width and height: Control the size of the image
