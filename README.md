@@ -7,10 +7,10 @@
 3. What is Void Element and Example for Void Elements ?
      A void element in HTML that does not have any content and hence does not require closing tag. The tags that doesn't have closing tags are void elements.
      Examples of void tag:
-         1. <img>
+        <!-- 1. <img>
          2. <br>
          3. <link>
-         4. <meta>
+         4. <meta> --!>
          
 4. What is Different Element and Attributes ?
      Elements define the structure and content of the document and Attributes provide additional details and modify the behavior or appearance of elements.
