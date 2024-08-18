@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <center>
+        <h1>Update Password</h1>
+    
+    <form id="updatePasswordForm">
+        <label for="newPassword">NEW PASSWORD</label><br>
+        <input type="password" id="newPassword" placeholder="Create new password">
+        <p id="newerror" class="error"></p>
+
+        <label for="confirmPassword">CONFIRM PASSWORD</label><br>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        <p id="confirmerror" class="error"></p>
+
+        <p id="notmatch" class="error"></p>
+        <button type="submit" id="update">Update</button>
+        
+    </form>
+</center>
+    <script src="script.js"></script>
+    
+</body>
+</html>
